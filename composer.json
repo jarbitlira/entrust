@@ -13,12 +13,6 @@
             "homepage": "http://www.andrewelkins.com"
         }
     ],
-    "repositories": [
-      {
-        "type": "git",
-        "url": "https://github.com/jarbitlira/ardent.git"
-      }
-    ],
     "require": {
         "php": ">=5.4.0",
         "illuminate/support": "~4.0|5.0.*@dev",
@@ -47,6 +41,10 @@
                     }
                 }
             }
+        },
+        {
+          "type": "git",
+          "url": "https://github.com/jarbitlira/ardent.git"
         }
     ],
     "suggest": {
